@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.administrator.invitefrndz.MainActivity"
+        android:background="#f1f1f1">
+
+
+        <LinearLayout
+            android:shape="rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#fff"
+            android:layout_margin="@dimen/activity_horizontal_margin">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+
+
+                <ImageView
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_margin="@dimen/activity_horizontal_margin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/imginvite"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Invite Friends!"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/activity_vertical_margin"
+                    />
+                <TextView
+                    android:textSize="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Invite people and get extra bonus"/>
+                <Button
+
+
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="INVITE NOW"
+                    android:background="@drawable/btnshaps"
+                    android:textColor="#fff"
+                    android:shape="rectangle"
+                    android:shadowColor="#000"
+                    android:shadowRadius="@android:integer/config_shortAnimTime"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_vertical_margin">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Unlock"
+                        android:layout_weight="1"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+4.256"
+                            android:textColor="#2196F3"
+                            android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="28 November,2016-Monday"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Unlock"
+                        android:layout_weight="1"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+15.286"
+                            android:textColor="#2196F3"
+                            android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="27 November,2016-Monday"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mohsin Nazir Joined Earnapp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+10"
+                            android:textColor="#2196F3"
+                            android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="27 November,2016-Monday"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Joy This Share"
+                        android:textColor="#2196F3"
+                        />
+                    <TextView
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Invite More"
+                        android:textColor="#f44336"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Unlock"
+                        android:layout_weight="1"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+12.286"
+                            android:textColor="#2196F3"
+                            android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="25 November,2016-Monday"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ali Usman Joined Earnapp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+10"
+                            android:textColor="#2196F3"
+                            android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="24 November,2016-Monday"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Joy This Share"
+                        android:textColor="#2196F3"
+                        />
+                    <TextView
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Invite More"
+                        android:textColor="#f44336"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Junaid khan Joined Earnapp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+10"
+                            android:textColor="#2196F3"
+                            android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="23 November,2016-Monday"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Joy This Share"
+                        android:textColor="#2196F3"
+                        />
+                    <TextView
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Invite More"
+                        android:textColor="#f44336"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#000"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

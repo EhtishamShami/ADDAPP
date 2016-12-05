@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f1f1f1"
+    >
+
+    <LinearLayout
+        android:background="@drawable/img_push"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        >
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Powered by"
+            android:textSize="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:textSize="12dp"
+            android:text="ThinkTechnology Solution (Pvt) Ltd"
+            android:textColor="#fff"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="www.thinktechsol.com"
+            android:textColor="#fff"
+            />
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/btnfbshap"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        >
+
+
+        <ImageView
+            android:src="@drawable/fbicon"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/imageView4" />
+
+        <Button
+            android:id="@+id/btnFaceBook"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="2"
+            android:textAlignment="viewStart"
+            android:text="Signup with Facebook"
+            android:textColor="#fff"
+            android:background="@android:color/transparent"
+            />
+
+        <ImageView
+            android:src="@drawable/iconendwhite"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:id="@+id/imageView3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/btngmail"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        >
+
+
+        <ImageView
+            android:src="@drawable/iconsms"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            />
+
+        <Button
+            android:id="@+id/btnEmailSigin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="2"
+            android:textAlignment="viewStart"
+            android:text="Signup with Email"
+            android:textColor="@android:color/black"
+            android:background="@android:color/transparent"
+            />
+
+        <ImageView
+            android:src="@drawable/iconend"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="32dp"
+        android:padding="@dimen/activity_vertical_margin">
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an Earnapp Account"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/btnshaps"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        >
+
+
+        <ImageView
+            android:src="@drawable/iconlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            />
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:layout_weight="2"
+            android:textAlignment="viewStart"
+            android:text="Login with Earnapp account?"
+            android:textColor="@android:color/white"
+            android:background="@android:color/transparent"
+            />
+
+        <ImageView
+            android:src="@drawable/iconendwhite"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
